@@ -1,6 +1,6 @@
 package org.ifunpas.kpl.code;
 
-public class A {
+public abstract class A implements AddAndSubInterface{
 	
 	public A() {
 		System.out.println("Ctor dikelas A");
