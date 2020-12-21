@@ -4,9 +4,10 @@ public class C  extends A implements MulAndDivInterface{
 	
 	private double n1;
 	private double n2;
-	
+	private B b;
 	public C() {
 		System.out.println("Ctor dikelas C");
+		b = new B();
 	}
 	
 	public double getN1() {
@@ -23,6 +24,7 @@ public class C  extends A implements MulAndDivInterface{
 	}
 	
 	public String toString() {
+		b.toString();
 		return "toString di kelas C";
 	}
 
@@ -50,6 +52,6 @@ public class C  extends A implements MulAndDivInterface{
 		return hasil;
 	}
 	
-
+	
 	
 }

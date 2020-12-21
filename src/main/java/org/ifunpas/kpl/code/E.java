@@ -15,8 +15,8 @@ public class E {
 	
 	 public boolean contains(String n) {
 		 boolean hasil = false;
-		 if (dataList.contains(n)) {
-			 hasil = true;
+		 if (dataList.contains(n) ) {
+			 hasil = true;			 
 		} else {
 			hasil = false;
 		}
